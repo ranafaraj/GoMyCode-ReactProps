@@ -20,3 +20,11 @@ Profile.propTypes = {
     bio: PropTypes.string,
     
 };
+
+Profile.defaultProps = {
+    name: "Rana Faraj",
+    profission: "Guitarest",
+    bio: "19 yo, half alien half cat",
+    img: './ranz.jpg'
+
+}
